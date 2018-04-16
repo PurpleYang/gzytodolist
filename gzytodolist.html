@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>gzytodolist</title>
+	<link type="text/css" rel="stylesheet" href="css/gzytodolist.css" />
+</head>
+<body>
+    <div id="wrap">
+        <div id="top">
+            <h2>ToDoList</h2>
+            <div id="topr">
+                <input type="text" id="txt" placeholder=" 添加ToDo">
+            </div>
+        </div>
+        <div id="box">
+                <div id="now">  
+                    <h3>正在进行<span id="num1">0</span></h3>
+                    <ul id="todo">
+                    </ul>
+                </div>
+                <div id="okbox">
+                    <h3>已经完成<span id="num2">0</span></h3>
+                    <ul id="ok">
+                    </ul>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/gzytodolist.js"></script>
